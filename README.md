@@ -1,7 +1,27 @@
+<img align="right" alt="Coding" width="240" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+
 # Привет! 👋 Я Анфиса, Python-разработчик, гик, эникейщик и тот, кто любит упрощать и автоматизировать.  
 
-С юнешества увлечена компьютерами, люблю технологии и обожаю находить решения, которые экономят время и нервы.  
+С юношества увлечена компьютерами, люблю технологии и обожаю находить решения, которые экономят время и нервы.  
 Мне нравится разбираться в сложных задачах и делать их простыми.  
+
+---
+
+## 🚀 Мой стек технологий  
+
+<div align="center">
+  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+</div>
+
+---
 
 ## 🔧 Чем я занимаюсь  
 💡 **Автоматизация и скрипты** – парсеры, боты, обработка данных  
@@ -9,6 +29,8 @@
 🤖 **Разработка ботов** – Telegram, VK, Discord  
 📊 **Парсинг и анализ данных** – BeautifulSoup, Selenium, Scrapy  
 🖥️ **Системное администрирование** – Linux, серверные скрипты, Docker  
+
+---
 
 ## 🏆 Мой путь в IT  
 - **С октября 2024 – по настоящее время** – Python-разработчик, фриланс  
@@ -29,6 +51,8 @@
   - Администрирование и поддержка рабочих мест сотрудников  
   - Настройка оборудования, работа с сетями и системами  
   - Улучшение документооборота, разработка макросов и скриптов  
+
+---
 
 ## 🚀 Немного обо мне  
 
@@ -57,6 +81,19 @@
 - Читаю **городское фэнтези** и **научную фантастику**.  
 - Иногда нахожу что-то новое в Linux – и могу зависнуть, разбираясь с этим, на часы.  
 
+---
+
+## 📊 GitHub Статистика  
+
+<div align="center">
+
+![Anfi's GitHub stats](https://github-readme-stats.vercel.app/api?username=anfixit&show_icons=true&theme=tokyonight)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anfixit&layout=compact&theme=tokyonight)
+
+</div>
+
+---
 
 ## 🔗 Связаться со мной  
 📌 [Telegram](https://t.me/Anfikus)  
