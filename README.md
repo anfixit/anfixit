@@ -172,7 +172,7 @@
 
 ## 💼 В разработке
 
-### 🔒 [WG-Manager](https://github.com/anfixit/wg-manager) - VPN-сервис нового поколения
+### 🔒 [routerus](https://github.com/anfixit/routerus) - VPN-сервис нового поколения
 Разрабатываю VPN-решение с умной маршрутизацией, которое не блокируется провайдерами и не требует отключения для доступа к российским сервисам.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
