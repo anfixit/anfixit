@@ -1,15 +1,20 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Привет,+я+Анфиса!;Python-разработчик;Автоматизатор+процессов;&center=true&width=380&height=45&color=58a6ff">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Sysadmin+%7C+Network+Engineer+%7C+Python+Dev;Building+my+way+into+DevOps;Linux+%7C+Docker+%7C+Django+%7C+Automation;&center=true&width=500&height=45&color=58a6ff&pause=1000">
 </div>
 
-<img align="right" alt="Coding" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+<img align="right" alt="Coding" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
-# Привет! 👋 Я Анфиса 
+# Привет! 👋 Я Анфиса | Hi! I'm Anfisa
 
-### Нёрд, гик, автоматизатор и тот, кто любит упрощать.  
+### 🇷🇺
+Системный администратор, сетевой инженер и Python-разработчик.  
+Сейчас целенаправленно двигаюсь в DevOps — уже уверенно работаю с Docker, Linux-серверами, CI/CD и автоматизацией инфраструктуры.  
+Люблю разбираться в сложном и делать из этого что-то простое и работающее.
 
-С юношества увлечена компьютерами, люблю технологии и обожаю находить решения, которые экономят время и нервы.  
-Мне нравится разбираться в сложных задачах и делать их простыми.  
+### 🇬🇧
+System administrator, network engineer, and Python developer.  
+Currently on a focused path into DevOps — already comfortable with Docker, Linux servers, CI/CD, and infrastructure automation.  
+I enjoy untangling complex problems and turning them into something simple and reliable.
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=anfixit&style=flat-square&color=blue" alt="Profile views"/>
@@ -19,213 +24,98 @@
 
 ---
 
-## 🚀 Мой стек технологий  
+## 🛠️ Стек | Tech Stack
 
-### 💪 Уверенно использую
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+### Infrastructure
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-### 🌱 Изучаю и практикую
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+### Backend
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/DRF-ff1709?style=for-the-badge&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 
-### 🔍 Знакомлюсь с
+### Data
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=python&logoColor=white)
 
-![AsyncIO](https://img.shields.io/badge/AsyncIO-3776AB?style=flat-square&logo=python&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
-![ElasticSearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=python&logoColor=white)
-
----
-
-## 🔧 Чем я занимаюсь  
-
-- 💡 **Автоматизация и скрипты** – парсеры, боты, обработка данных, оптимизация бизнес-процессов  
-- 🌍 **Web-разработка** – Django, Flask, FastAPI, RESTful API  
-- 🤖 **Разработка ботов** – Telegram, VK, Discord с интеграцией сервисов и БД  
-- 📊 **Парсинг и анализ данных** – BeautifulSoup, Selenium, Scrapy, pandas  
-- 🖥️ **Системное администрирование** – Linux, серверные скрипты, Docker, CI/CD  
-
-### Примеры конкретных задач:
-- ⚙️ Автоматизировала процесс сбора и обработки логистических данных, сократив время обработки на 67%
-- 🔄 Разработала систему интеграции между 1С и CRM-системой через API
-- 🤖 Создала Telegram-бота для автоматизации HR-процессов с уведомлениями и отчетностью
+### Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=swagger&logoColor=white)
 
 ---
 
-## 📚 Моя дорожная карта Python-разработчика
+## 🔧 Чем занимаюсь | What I Do
 
-### 🎯 Junior уровень (Необходимый минимум)
-```
-✅ Python – основы языка, типы данных, функции, ООП
-✅ Git – базовые команды, ветвление, работа с удаленными репозиториями 
-✅ SQL – базовые запросы, JOIN, индексы
-✅ PostgreSQL – установка, настройка, работа с базой данных
-✅ Flask – создание простых веб-приложений, маршрутизация, шаблоны
-✅ Docker – основы контейнеризации, базовые команды
-```
+### 🇷🇺
+- **Системное администрирование** — серверы на Linux, сетевая инфраструктура, безопасность, VPN-решения
+- **DevOps** — Docker, CI/CD, автоматизация деплоя, управление конфигурациями
+- **Python-разработка** — REST API на Django/Flask/FastAPI, Telegram-боты, парсеры, автоматизация
+- **Системный анализ** — проектирование интеграций, описание API, моделирование бизнес-процессов
 
-### 🔼 Junior+ уровень (Текущее развитие)
-```
-🔄 Django – MVT архитектура, ORM, админка, формы                      (в процессе)
-🔄 FastAPI – асинхронные API, Pydantic, OpenAPI                       (в процессе)
-🔄 Linux/Bash – базовые команды, скрипты, работа с файлами            (в процессе)
-🔄 Nginx – установка, настройка как reverse proxy                     (в процессе)
-🔄 Docker Compose – многоконтейнерные приложения                      (в процессе)
-```
-
-### 🚀 Middle уровень (Ближайшие цели)
-```
-📌 SQLAlchemy – ORM, сессии, миграции, оптимизация запросов
-📌 Redis – кеширование, pub/sub, хранение данных
-📌 Gunicorn – деплой, настройка для высоких нагрузок
-📌 OAuth2.0/OIDC – безопасность, аутентификация, авторизация
-📌 Тестирование – unittest, pytest, интеграционные тесты
-```
-
-### 🔝 Middle+ уровень (Дальнейшие шаги)
-```
-⏳ AsyncIO – асинхронное программирование в Python
-⏳ RabbitMQ/Apache Kafka – очереди сообщений, брокеры
-⏳ ETL – обработка и трансформация данных
-⏳ Elasticsearch – полнотекстовый поиск, логирование
-⏳ ELK Stack – централизованная система логирования
-```
-
-### ⚡ Senior уровень (Перспективы)
-```
-🔮 Clickhouse – аналитические базы данных, big data
-🔮 Dramatiq – фоновые задачи, обработка очередей
-🔮 Kubernetes – оркестрация контейнеров
-🔮 CI/CD – автоматизация развертывания и тестирования
-🔮 Микросервисная архитектура – распределенные системы
-```
-
-### 🌐 Дополнительные навыки (По необходимости)
-```
-🔮 TypeScript – типизированный JavaScript
-🔮 SolidJS – реактивный фреймворк для фронтенда
-🔮 Мониторинг – Prometheus, Grafana
-🔮 Cloud – AWS, GCP, Azure
-```
+### 🇬🇧
+- **System Administration** — Linux servers, network infrastructure, security, VPN solutions
+- **DevOps** — Docker, CI/CD, deployment automation, configuration management
+- **Python Development** — REST APIs with Django/Flask/FastAPI, Telegram bots, scrapers, automation
+- **System Analysis** — integration design, API specification, business process modeling
 
 ---
 
-**Условные обозначения:**
-- ✅ - Освоено на хорошем уровне
-- 🔄 - В процессе изучения
-- 📌 - Ближайшие цели
-- ⏳ - Планируется в среднесрочной перспективе
-- 🔮 - Дальнейшие шаги развития
+## 💼 Опыт | Experience
+
+**АД Пластик / AD Plastik** — Сетевой инженер / Системный администратор *(сен 2025 – н.в.)*  
+Серверная инфраструктура, масштабирование, обеспечение отказоустойчивости.
+
+**ALYWIN s.r.o. (Прага)** — Junior Python Developer *(сен 2024 – сен 2025)*  
+Django, PostgreSQL, pytest, Docker. Code review, оптимизация SQL, unit-тесты.
+
+**ИП «Ковганюк А.В.»** — Python-разработчик, DevOps *(дек 2024 – н.в.)*  
+Telegram-боты, Flask-приложения, серверная инфраструктура, API-интеграции.
+
+**Casale SA / Casale Project** — IT-менеджер → Менеджер по материалам *(2018 – 2024)*  
+Автоматизация IT-процессов, базы данных, интеграция систем на международном проекте.
 
 ---
 
-## 🏆 Мой путь в IT  
-- **С октября 2024 – по настоящее время** – Python-разработчик, фриланс  
-  - Разработка ботов, парсеров, автоматизация бизнес-процессов  
-  - Веб-приложения и админки на Flask и Django  
-  - DevOps-настройка серверов, деплой проектов (Docker, Linux)  
+## 🎓 Образование | Education
 
-- **2018 – 2024** – IT-автоматизация и управление данными в Casale SA *(международный проект, Навои / Тольятти)*  
-  - Оптимизация IT-инфраструктуры, автоматизация процессов  
-  - Создание и ведение баз данных для управления логистикой и ресурсами  
-  - Настройка и администрирование оборудования, системная поддержка  
-  - Разработка скриптов для автоматизации работы с документами и данными  
-  - Поддержка пользователей, техническое сопровождение проектов  
-
-- **2009 – 2018** – Логистика, IT-оптимизация и автоматизация бизнес-процессов  
-  - Создание и ведение баз данных (MS Access, 1C)  
-  - Оптимизация работы логистических процессов с помощью автоматизации  
-  - Администрирование и поддержка рабочих мест сотрудников  
-  - Настройка оборудования, работа с сетями и системами  
-  - Улучшение документооборота, разработка макросов и скриптов  
+🎓 **Прикладная информатика** — МТИ «ВТУ», бакалавр *(2020)*  
+📜 **Python-разработчик. Расширенный** — Яндекс Практикум, 612 ч *(Django, DRF, API, CI/CD, парсинг)*  
+📜 **System Analysis** — ASTON *(2025)*  
+📜 **Основы компьютерных и веб-технологий с Python** — Диджитализируй  
 
 ---
 
-## 🎓 Образование и текущее обучение
+## 🚀 Проекты | Projects
 
-- **Курс "Диджитализируй"** от Алексея Голобурдина (в процессе)
-- **Курс Python-разработчика** от Яндекса (в процессе)
-- **Основы компьютерных и веб-технологий с Python** от Диджитализируй (2023)
-- **Самостоятельное изучение DevOps** по roadmap.sh
+### 🔒 [routerus](https://github.com/anfixit/routerus)
+VPN-решение с умной маршрутизацией: не блокируется провайдерами, не мешает доступу к локальным сервисам.  
+A smart-routing VPN solution: ISP-resistant, no need to toggle off for local services.  
+`Python` `Docker` `Linux` `Networking`
 
----
+### 🤖 Telegram Bots
+Боты для автоматизации бизнес-процессов: учёт, уведомления, интеграции с Google Sheets и внешними API.  
+Business automation bots: accounting, notifications, Google Sheets & external API integrations.  
+`Python` `aiogram` `FastAPI`
 
-## 💼 В разработке
-
-### 🔒 [routerus](https://github.com/anfixit/routerus) - VPN-сервис нового поколения
-Разрабатываю VPN-решение с умной маршрутизацией, которое не блокируется провайдерами и не требует отключения для доступа к российским сервисам.
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-### 🤖 Telegram Боты
-Разрабатываю различные боты для автоматизации процессов и взаимодействия с пользователями.
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-### 📊 Системы синхронизации данных
-Создаю решения для интеграции и синхронизации данных между различными источниками и сервисами.
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+### 📊 Data Sync Systems
+Интеграция и синхронизация данных между сервисами и базами.  
+Data integration and synchronization between services and databases.  
+`Django` `PostgreSQL` `REST API`
 
 ---
 
-## 🏆 Планы на будущее
-- 🎯 Участие в Python-хакатонах и соревнованиях
-- 🌟 Развитие Open Source проектов по автоматизации
-- 📚 Расширение блога на Дзен с публикацией статей по Python и автоматизации
-- 🔄 Создание микросервисной архитектуры с использованием Kafka/RabbitMQ
-- 🔍 Разработка поисковых решений на основе Elasticsearch
-- 🚀 Применение ETL-процессов для обработки больших объемов данных
-
----
-
-## 🚀 Парсеры данных
-
-Разрабатываю парсеры для различных сервисов и платформ:
-
-### 💼 Маркетплейсы и товары
-- `wb-parser` 🛍️ **Парсер Wildberries** – собирает данные о товарах (цены, рейтинги, отзывы)
-- `ozon-parser` 📦 **Парсер Ozon** – выгружает карточки товаров с ценами и остатками
-- `aliexpress-parser` 🌏 **Парсер AliExpress** – сбор информации о товарах с фильтрацией по цене
-- `yandex-market-parser` 🛒 **Парсер Яндекс.Маркета** – мониторинг цен и наличия товаров
-
-### 📋 Объявления и недвижимость
-- `avito-scraper` 📋 **Парсер Авито** – мониторинг цен и объявлений по ключевым словам
-- `yula-parser` 🏷️ **Парсер Юла** – сбор объявлений, контактов и мониторинг цен
-- `cian-parser` 🏠 **Парсер Циан** – сбор объявлений о продаже и аренде недвижимости
-- `auto-parser` 🚗 **Парсер Авто.ру и Дром** – анализ цен на автомобили
-
-### 🔍 Социальные сети и мессенджеры
-- `vk-parser` 📱 **Парсер VK** – сбор постов, комментариев, подписчиков
-- `instagram-parser` 📸 **Парсер Instagram** – мониторинг профилей и постов
-- `telegram-channels-parser` 💬 **Парсер Telegram-каналов** – сбор сообщений и подписчиков
-
-### 📰 Новости и публикации
-- `news-parser` 📰 **Парсер новостных сайтов** – сбор статей и мониторинг новостей
-- `medium-blog-parser` ✍️ **Парсер блогов** – анализ публикаций по ключевым словам
-
-### 🗺️ Геосервисы
-- `2gis-parser` 📍 **Парсер 2ГИС** – сбор данных о компаниях (адреса, телефоны)
-- `yandex-maps-parser` 🗺️ **Парсер Яндекс.Карт** – поиск организаций и их контактов
-- `google-maps-parser` 🌍 **Парсер Google Maps** – автоматический сбор информации о бизнесах
-
-> *В ближайшее время парсеры будут добавлены в мои репозитории*
-
----
-
-## 📊 GitHub Статистика  
+## 📊 GitHub Stats
 
 <div align="center">
   <a href="https://github.com/anfixit">
@@ -236,13 +126,13 @@
 
 <div align="center">
   <a href="https://github.com/anfixit">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=anfixit&theme=default&background=00000000" alt="Anfi's streak stats"/>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=anfixit&theme=default&background=00000000" alt="Streak stats"/>
   </a>
 </div>
 
 ---
 
-## 🔗 Связаться со мной
+## 🔗 Контакты | Contact
 
 <p align="left">
   <a href="https://t.me/Anfikus">
@@ -258,7 +148,3 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
-
----
-
-### Посмотрите мои пинned репозитории ниже! 👇
