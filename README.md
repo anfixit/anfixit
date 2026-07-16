@@ -99,11 +99,11 @@ I am especially effective where infrastructure needs to become repeatable, obser
 | --- | --- |
 | **[routerus](https://github.com/anfixit/routerus)** | Idempotent deployment of Remnawave and Xray-core VPN nodes on Ubuntu 24.04. Includes SSH hardening, UFW, fail2ban, TLS, Nginx, secure secret handling, logging, watchdogs and TCP/XHTTP transport configuration. |
 | **[anfinances](https://github.com/anfixit/anfinances)** | Self-hosted multi-currency personal finance platform with a domain-driven async FastAPI backend, typed React frontend, PostgreSQL, YNAB-style budgets, backup/restore, tests and production Docker deployment. |
+| **[unpaywallbot](https://github.com/anfixit/unpaywallbot)** | Information-security research project demonstrating weaknesses in client-side access-control mechanisms. Includes a modular processing pipeline, encrypted session storage, Redis caching, rate limiting, audit logging, automated tests, dependency auditing and containerized CI/CD deployment. |
+| **[voice_match](https://github.com/anfixit/voice_match)** | Privacy-first local voice similarity analysis using multiple audio and embedding models. Audio is processed without cloud APIs, temporary files are removed after analysis, and the application supports self-hosted Docker deployment. |
 | **[Python Engineering Handbook](https://github.com/anfixit/vibe-python-engineering-handbook)** | Open-source production Python standards covering architecture, security, typing, async development, FastAPI, Django, testing, Docker, CI/CD, deployment and monitoring. |
-| **[router-provisioner](https://github.com/anfixit/router-provisioner)** | Cross-platform OpenWrt provisioning and automation with firmware installation, VPN configuration and reusable device profiles. |
-| **[simoronator](https://github.com/anfixit/simoronator)** | Telegram bot and PWA mini-app platform built with Python, aiogram, HTML, CSS and JavaScript. |
 
-More public work: [voice_match](https://github.com/anfixit/voice_match), [naspch_bot](https://github.com/anfixit/naspch_bot), [unpaywallbot](https://github.com/anfixit/unpaywallbot), [luci-app-podkop-sub](https://github.com/anfixit/luci-app-podkop-sub).
+Additional projects: [auth_project](https://github.com/anfixit/auth_project), [simoronator](https://github.com/anfixit/simoronator), [naspch_bot](https://github.com/anfixit/naspch_bot), [rukiki](https://github.com/anfixit/rukiki), [freelance_lena_bot](https://github.com/anfixit/freelance_lena_bot).
 
 ## Experience snapshot
 

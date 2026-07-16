@@ -99,11 +99,11 @@
 | --- | --- |
 | **[routerus](https://github.com/anfixit/routerus)** | Идемпотентное развёртывание VPN-нод Remnawave и Xray-core на Ubuntu 24.04. Хардинг SSH, UFW, fail2ban, TLS, Nginx, защита секретов, логирование, watchdog и настройка транспортов TCP/XHTTP. |
 | **[anfinances](https://github.com/anfixit/anfinances)** | Self-hosted система личных финансов с мультивалютностью, доменным async backend на FastAPI, типизированным frontend на React, PostgreSQL, YNAB-бюджетами, backup/restore, тестами и production-деплоем в Docker. |
+| **[unpaywallbot](https://github.com/anfixit/unpaywallbot)** | Исследовательский проект по информационной безопасности, демонстрирующий недостатки клиентских механизмов контроля доступа. Модульная обработка данных, шифрование сессий, Redis, rate limiting, аудит, автоматические тесты, проверка зависимостей и контейнеризированный CI/CD. |
+| **[voice_match](https://github.com/anfixit/voice_match)** | Система конфиденциального локального анализа сходства голосов на основе нескольких аудиомоделей и эмбеддингов. Обработка выполняется без облачных API, временные файлы удаляются, поддерживается самостоятельное развёртывание через Docker. |
 | **[Python Engineering Handbook](https://github.com/anfixit/vibe-python-engineering-handbook)** | Open-source справочник по production-разработке на Python: архитектура, безопасность, типизация, async, FastAPI, Django, тестирование, Docker, CI/CD, деплой и мониторинг. |
-| **[router-provisioner](https://github.com/anfixit/router-provisioner)** | Кроссплатформенная автоматизация OpenWrt-роутеров: установка прошивки, настройка VPN и повторно используемые профили устройств. |
-| **[simoronator](https://github.com/anfixit/simoronator)** | Telegram-бот и набор PWA mini-app на Python, aiogram, HTML, CSS и JavaScript. |
 
-Другие публичные проекты: [voice_match](https://github.com/anfixit/voice_match), [naspch_bot](https://github.com/anfixit/naspch_bot), [unpaywallbot](https://github.com/anfixit/unpaywallbot), [luci-app-podkop-sub](https://github.com/anfixit/luci-app-podkop-sub).
+Дополнительные проекты: [auth_project](https://github.com/anfixit/auth_project), [simoronator](https://github.com/anfixit/simoronator), [naspch_bot](https://github.com/anfixit/naspch_bot), [rukiki](https://github.com/anfixit/rukiki), [freelance_lena_bot](https://github.com/anfixit/freelance_lena_bot).
 
 ## Опыт
 
