@@ -2,7 +2,7 @@
 
 # Анфиса Ковганюк
 
-### Infrastructure & Security Engineer · Системный и сетевой инженер · Автоматизация на Python
+### SRE / DevOps-инженер · Инженер инфраструктуры и сетей · Автоматизация на Python
 
 Строю, защищаю и автоматизирую инфраструктуру, которая должна стабильно работать в production.
 
@@ -25,16 +25,19 @@
 
 Особенно сильна в задачах, где инфраструктуру нужно сделать повторяемой, наблюдаемой, безопасной и хорошо документированной.
 
-**Целевые позиции:** Infrastructure & Security Engineer, системный и сетевой инженер, инженер по автоматизации инфраструктуры.
+**Целевые позиции:** SRE, DevOps-инженер, инженер по эксплуатации и сопровождению инфраструктуры, инженер по автоматизации инфраструктуры.
 
 ## Результаты в цифрах
 
 | Направление | Результат |
 | --- | --- |
 | Производственная IT-инфраструктура | Сопровождаю среду примерно на **50 пользователей**: **2 физических сервера Dell**, VMware, **15 управляемых коммутаторов HP**, корпоративную Wi-Fi-сеть, Windows и Linux |
-| Распределённая инфраструктура | Эксплуатирую production VPN-платформу примерно на **100 пользователей**: **13 серверных нод в 9 странах** |
-| Надёжность | Около **99,9% доступности сервиса** за последний измеренный 30-дневный период, отдельные ноды работали непрерывно до 138 дней |
-| Автоматизация | Сократила развёртывание новой ноды на чистом сервере примерно **с 30 до 5 минут** с помощью идемпотентного Bash-инструмента |
+| Распределённая инфраструктура | Построила и эксплуатирую коммерческую production VPN-платформу: **25 Linux-серверов**, **20 VPN-нод в 7 странах** у 12 хостеров, около **110 учётных записей**, 130-186 ГБ трафика в сутки |
+| Надёжность | **99,93% средней доступности нод** по данным Prometheus и blackbox_exporter, ни одного полного отказа сервиса, включая поочерёдную перезагрузку 11 нод и обновления ПО |
+| Балансировка | Спроектировала балансировку по странам с health-check: **28 серверных записей свернула в 14** с автовыбором самого быстрого живого узла, раскатка поэтапная, со сценарием отката |
+| Наблюдаемость | Мониторинг **37 целей** на Prometheus, Grafana, Alertmanager и blackbox, алерты в Telegram по уровням срочности и правило, которое ловит отказ самого мониторинга |
+| Автоматизация | Сократила ввод новой ноды примерно с **30 до 5 минут** идемпотентным Bash-инструментом; автоматизировала исправление продления TLS-сертификатов, которое тихо падало на **9 из 14 нод** |
+| Продуктовая разработка | Разработала личный кабинет с приёмом платежей (FastAPI, React, PostgreSQL, **500+ тестов**, CI/CD) и **AI-агента поддержки** на LLM для Telegram и MAX с инструментами и консолью оператора |
 | Реакция на инциденты | Во время крупного инфраструктурного сбоя восстановила Wi-Fi за **21 минуту**, полное восстановление заняло около **2 часов 20 минут** |
 | Python-разработка | Написала и доработала около **70 автоматических тестов**, автоматизация регулярных операций сократила время выполнения примерно на **30-40%** |
 
@@ -45,9 +48,9 @@
 - **Системы и управление доступом:** Windows, Ubuntu Server, Linux, Active Directory, пользователи, группы, права доступа и операции, связанные с GPO
 - **Сети:** TCP/IP, подсети, LAN, VLAN, маршрутизация, NAT, Wi-Fi, VPN, DNS, управляемые коммутаторы HP и анализ трафика в Wireshark
 - **Виртуализация и эксплуатация:** VMware, контроль серверной и ИБП, диагностика инцидентов, восстановление сервисов и техническая документация
-- **Безопасность:** SSH только по ключам, UFW, fail2ban, TLS-сертификаты, Nginx и Caddy, принцип наименьших привилегий и безопасная работа с секретами
+- **Безопасность:** SSH только по ключам, UFW, fail2ban, автоматизация TLS-сертификатов Let's Encrypt, Nginx и Caddy, принцип наименьших привилегий и безопасная работа с секретами
 - **Контейнеры и доставка:** Docker, Docker Compose, GitHub Actions, версионированные образы, health checks, smoke-проверки, деплой и откат
-- **Наблюдаемость:** SolarWinds, Prometheus, Grafana, Beszel, журналы, алерты и анализ доступности
+- **Наблюдаемость:** SolarWinds, Prometheus, Grafana, Alertmanager, node_exporter, blackbox_exporter, журналы, алерты по уровням срочности и анализ доступности
 - **Разработка и данные:** Python, Bash, FastAPI, Django, REST API, PostgreSQL, SQLAlchemy, Redis, pytest, React и TypeScript
 
 ### Архитектурные знания и диагностика
@@ -80,6 +83,7 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Alertmanager](https://img.shields.io/badge/Alertmanager-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ### Backend и данные
@@ -97,13 +101,15 @@
 
 | Проект | Что демонстрирует |
 | --- | --- |
-| **[routerus](https://github.com/anfixit/routerus)** | Идемпотентное развёртывание VPN-нод Remnawave и Xray-core на Ubuntu 24.04. Хардинг SSH, UFW, fail2ban, TLS, Nginx, защита секретов, логирование, watchdog и настройка транспортов TCP/XHTTP. |
+| **[VPaNfi](https://github.com/anfixit/vpanfi)** | Личный кабинет моего коммерческого VPN-сервиса: асинхронный backend на FastAPI, frontend на React и TypeScript, PostgreSQL, Redis, JWT и вход через OAuth, интеграция эквайринга с идемпотентными вебхуками, транзакционная почта, триал и реферальная программа, 500+ тестов и CI/CD на GitHub Actions до production. |
+| **[routerus](https://github.com/anfixit/routerus)** | Идемпотентное развёртывание VPN-нод Remnawave и Xray-core на Ubuntu 24.04. Хардинг SSH, UFW, fail2ban, автоматизация Let's Encrypt с самопочинкой продления, Nginx, защита секретов, логирование, watchdog, настройка транспортов TCP/XHTTP, регистрация ноды в панели через API и скрипт самопроверки. |
+| **[router-provisioner](https://github.com/anfixit/router-provisioner)** | Настройка OpenWrt-роутера одной командой: VPN-подписка на sing-box, split-tunneling, блокировка рекламы через DNS. Резервная копия перед изменениями, идемпотентный повторный запуск, режимы dry-run и diagnose, сторожевой сервис, который не оставит роутер без интернета, ночные обновления с автооткатом. |
 | **[anfinances](https://github.com/anfixit/anfinances)** | Self-hosted система личных финансов с мультивалютностью, доменным async backend на FastAPI, типизированным frontend на React, PostgreSQL, YNAB-бюджетами, backup/restore, тестами и production-деплоем в Docker. |
 | **[unpaywallbot](https://github.com/anfixit/unpaywallbot)** | Исследовательский проект по информационной безопасности, демонстрирующий недостатки клиентских механизмов контроля доступа. Модульная обработка данных, шифрование сессий, Redis, rate limiting, аудит, автоматические тесты, проверка зависимостей и контейнеризированный CI/CD. |
 | **[voice_match](https://github.com/anfixit/voice_match)** | Система конфиденциального локального анализа сходства голосов на основе нескольких аудиомоделей и эмбеддингов. Обработка выполняется без облачных API, временные файлы удаляются, поддерживается самостоятельное развёртывание через Docker. |
 | **[Python Engineering Handbook](https://github.com/anfixit/vibe-python-engineering-handbook)** | Open-source справочник по production-разработке на Python: архитектура, безопасность, типизация, async, FastAPI, Django, тестирование, Docker, CI/CD, деплой и мониторинг. |
 
-Дополнительные проекты: [auth_project](https://github.com/anfixit/auth_project), [simoronator](https://github.com/anfixit/simoronator), [naspch_bot](https://github.com/anfixit/naspch_bot), [rukiki](https://github.com/anfixit/rukiki), [freelance_lena_bot](https://github.com/anfixit/freelance_lena_bot).
+Дополнительные проекты: [auth_project](https://github.com/anfixit/auth_project), [simoronator](https://github.com/anfixit/simoronator), [naspch_bot](https://github.com/anfixit/naspch_bot), [freelance_lena_bot](https://github.com/anfixit/freelance_lena_bot).
 
 ## Опыт
 
@@ -112,10 +118,10 @@
 
 Производственная IT-инфраструктура примерно на 50 пользователей: Windows и Linux, Active Directory, VMware, серверы Dell, управляемые коммутаторы HP, корпоративная Wi-Fi-сеть, VPN, мониторинг SolarWinds, устранение инцидентов и координация с центральной IT-командой в Хорватии.
 
-### Собственная инфраструктура и Python-разработка
+### Проектная деятельность · инфраструктура, SRE и Python-разработка
 **Декабрь 2024 - настоящее время**
 
-Проектирование, развёртывание и эксплуатация распределённой VPN-платформы из 13 нод в 9 странах. Ubuntu Server, Docker, Xray-core, Remnawave, Nginx, Caddy, TLS, UFW, fail2ban, Prometheus, Grafana, автоматизация на Bash/Python, GitHub Actions и техническая документация.
+Проектирование, развёртывание и эксплуатация коммерческой VPN-платформы: 25 Linux-серверов, 20 нод в 7 странах, измеренная доступность нод 99,93%. Ubuntu Server, Docker, Xray-core, Remnawave, Nginx, Caddy, Let's Encrypt, UFW, fail2ban, балансировка по странам, Prometheus, Grafana, Alertmanager, бэкапы, расследование инцидентов, автоматизация на Bash/Python и GitHub Actions. Личный кабинет с приёмом платежей (FastAPI, React, PostgreSQL) и AI-агент поддержки на LLM. Второй коммерческий проект: настройка OpenWrt-роутеров с VPN-подпиской.
 
 ### AL YWIN, Прага · Python-разработчик и инженер по автоматизации
 **Сентябрь 2024 - сентябрь 2025**

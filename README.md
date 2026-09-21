@@ -2,7 +2,7 @@
 
 # Anfisa Kovganyuk
 
-### Infrastructure & Security Engineer · Systems & Network Engineer · Python Automation
+### SRE / DevOps Engineer · Infrastructure & Network Engineer · Python Automation
 
 I build, secure and automate infrastructure that has to keep working in production.
 
@@ -25,16 +25,19 @@ My background combines hands-on administration of Windows and Linux environments
 
 I am especially effective where infrastructure needs to become repeatable, observable, secure and well documented.
 
-**Target roles:** Infrastructure & Security Engineer, Systems & Network Engineer, Infrastructure Automation Engineer.
+**Target roles:** Site Reliability Engineer, DevOps Engineer, Infrastructure / Operations Engineer, Infrastructure Automation Engineer.
 
 ## Selected impact
 
 | Area | Result |
 | --- | --- |
 | Production IT | Support infrastructure for about **50 users**, **2 Dell physical servers**, VMware, **15 managed HP switches**, corporate Wi-Fi, Windows and Linux systems |
-| Distributed infrastructure | Operate a production VPN platform for about **100 users** across **13 server nodes in 9 countries** |
-| Reliability | About **99.9% service availability** over the latest measured 30-day period, with individual nodes running continuously for up to 138 days |
-| Automation | Reduced clean-node provisioning from about **30 minutes to 5 minutes** with an idempotent Bash deployment tool |
+| Distributed infrastructure | Built and operate a commercial production VPN platform: **25 Linux servers**, **20 VPN nodes in 7 countries** across 12 hosting providers, about **110 accounts** and 130-186 GB of traffic per day |
+| Reliability | **99.93% average node availability** measured by Prometheus and blackbox_exporter, no full service outage, including a rolling reboot of 11 nodes and software upgrades |
+| Load balancing | Designed per-country load balancing with health checks: **28 server entries collapsed into 14** with automatic selection of the fastest live node, rolled out in stages with a rollback plan |
+| Observability | Prometheus, Grafana, Alertmanager and blackbox monitoring of **37 targets** with tiered Telegram alerting and a rule that detects failure of the monitoring itself |
+| Automation | Reduced clean-node provisioning from about **30 minutes to 5 minutes** with an idempotent Bash deployment tool; automated a fleet-wide fix for TLS renewal that was silently failing on **9 of 14 nodes** |
+| Product engineering | Built a customer portal with payments (FastAPI, React, PostgreSQL, **500+ tests**, CI/CD) and an **LLM support agent** for Telegram and MAX with tool access and an operator console |
 | Incident response | Restored Wi-Fi in **21 minutes** during a major infrastructure incident and completed full recovery in about **2 hours 20 minutes** |
 | Python delivery | Added and improved about **70 automated tests** and helped reduce recurring manual operations by roughly **30-40%** |
 
@@ -45,10 +48,10 @@ I am especially effective where infrastructure needs to become repeatable, obser
 - **Systems and identity:** Windows, Ubuntu Server, Linux administration, Active Directory, users, groups, permissions and GPO-related operations
 - **Networks:** TCP/IP, subnetting, LAN, VLAN, routing, NAT, Wi-Fi, VPN, DNS, managed HP switches and packet analysis with Wireshark
 - **Virtualization and operations:** VMware, server-room monitoring, UPS monitoring, incident diagnostics, recovery coordination and technical documentation
-- **Security:** SSH key-only access, UFW, fail2ban, TLS certificates, Nginx and Caddy, least-privilege practices and secure secret handling
+- **Security:** SSH key-only access, UFW, fail2ban, Let's Encrypt TLS automation, Nginx and Caddy, least-privilege practices and secure secret handling
 - **Containers and delivery:** Docker, Docker Compose, GitHub Actions, versioned images, health checks, smoke checks, deployment and rollback workflows
-- **Observability:** SolarWinds, Prometheus, Grafana, Beszel, service logs, alerting and availability analysis
-- **Development and data:** Python, Bash, FastAPI, Django, REST API, PostgreSQL, SQLAlchemy, Redis, pytest, React and TypeScript
+- **Observability:** SolarWinds, Prometheus, Grafana, Alertmanager, node_exporter, blackbox_exporter, service logs, tiered alerting and availability analysis
+- **Development and data:** Python, Bash, FastAPI, Django, REST API, PostgreSQL, SQLAlchemy, Redis, pytest, React, TypeScript, aiogram and LLM tool use (Claude API)
 
 ### Architecture and troubleshooting knowledge
 
@@ -80,6 +83,7 @@ I am especially effective where infrastructure needs to become repeatable, obser
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Alertmanager](https://img.shields.io/badge/Alertmanager-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ### Backend and data
@@ -97,13 +101,15 @@ I am especially effective where infrastructure needs to become repeatable, obser
 
 | Project | What it demonstrates |
 | --- | --- |
-| **[routerus](https://github.com/anfixit/routerus)** | Idempotent deployment of Remnawave and Xray-core VPN nodes on Ubuntu 24.04. Includes SSH hardening, UFW, fail2ban, TLS, Nginx, secure secret handling, logging, watchdogs and TCP/XHTTP transport configuration. |
+| **[VPaNfi](https://github.com/anfixit/vpanfi)** | Customer portal of my commercial VPN service: async FastAPI backend, React and TypeScript frontend, PostgreSQL, Redis, JWT and OAuth sign-in, payment provider integration with idempotent webhooks, transactional email, trial and referral logic, 500+ tests and GitHub Actions CI/CD to production. |
+| **[routerus](https://github.com/anfixit/routerus)** | Idempotent deployment of Remnawave and Xray-core VPN nodes on Ubuntu 24.04. Includes SSH hardening, UFW, fail2ban, Let's Encrypt automation with renewal self-repair, Nginx, secure secret handling, logging, watchdogs, TCP/XHTTP transport configuration, panel registration through API and a node self-check script. |
+| **[router-provisioner](https://github.com/anfixit/router-provisioner)** | One-command provisioning of OpenWrt routers: sing-box VPN subscription, split tunnelling, DNS ad blocking. Backup before changes, idempotent re-runs, dry-run and diagnose modes, watchdog that never leaves the router without internet, nightly updates with automatic rollback. |
 | **[anfinances](https://github.com/anfixit/anfinances)** | Self-hosted multi-currency personal finance platform with a domain-driven async FastAPI backend, typed React frontend, PostgreSQL, YNAB-style budgets, backup/restore, tests and production Docker deployment. |
 | **[unpaywallbot](https://github.com/anfixit/unpaywallbot)** | Information-security research project demonstrating weaknesses in client-side access-control mechanisms. Includes a modular processing pipeline, encrypted session storage, Redis caching, rate limiting, audit logging, automated tests, dependency auditing and containerized CI/CD deployment. |
 | **[voice_match](https://github.com/anfixit/voice_match)** | Privacy-first local voice similarity analysis using multiple audio and embedding models. Audio is processed without cloud APIs, temporary files are removed after analysis, and the application supports self-hosted Docker deployment. |
 | **[Python Engineering Handbook](https://github.com/anfixit/vibe-python-engineering-handbook)** | Open-source production Python standards covering architecture, security, typing, async development, FastAPI, Django, testing, Docker, CI/CD, deployment and monitoring. |
 
-Additional projects: [auth_project](https://github.com/anfixit/auth_project), [simoronator](https://github.com/anfixit/simoronator), [naspch_bot](https://github.com/anfixit/naspch_bot), [rukiki](https://github.com/anfixit/rukiki), [freelance_lena_bot](https://github.com/anfixit/freelance_lena_bot).
+Additional projects: [auth_project](https://github.com/anfixit/auth_project), [simoronator](https://github.com/anfixit/simoronator), [naspch_bot](https://github.com/anfixit/naspch_bot), [freelance_lena_bot](https://github.com/anfixit/freelance_lena_bot).
 
 ## Experience snapshot
 
@@ -112,10 +118,10 @@ Additional projects: [auth_project](https://github.com/anfixit/auth_project), [s
 
 Production infrastructure for about 50 users: Windows and Linux systems, Active Directory, VMware, Dell servers, managed HP switching, corporate Wi-Fi, VPN, SolarWinds monitoring, incident response and coordination with the central IT team in Croatia.
 
-### Independent infrastructure automation and Python development
+### Project work · Infrastructure, SRE and Python development
 **December 2024 - present**
 
-Design, deployment and operation of a distributed VPN platform across 13 nodes in 9 countries. Ubuntu Server administration, Docker, Xray-core, Remnawave, Nginx, Caddy, TLS, UFW, fail2ban, Prometheus, Grafana, Bash/Python tooling, GitHub Actions and technical documentation.
+Design, deployment and operation of a commercial VPN platform: 25 Linux servers, 20 nodes in 7 countries, 99.93% measured node availability. Ubuntu Server, Docker, Xray-core, Remnawave, Nginx, Caddy, Let's Encrypt, UFW, fail2ban, per-country load balancing, Prometheus, Grafana, Alertmanager, backups, incident investigation, Bash/Python tooling and GitHub Actions. Customer portal with payments (FastAPI, React, PostgreSQL) and an LLM support agent. A second commercial project provisions OpenWrt routers with a VPN subscription.
 
 ### AL YWIN, Prague · Python Developer and Automation Engineer
 **September 2024 - September 2025**
